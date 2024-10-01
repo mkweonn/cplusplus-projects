@@ -1,0 +1,56 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "2f4f34c73f2204a3ffda22dcd9139f2710f9b79a7e05cca17efb49e48dc6ee95"
+    }
+  ],
+  "containerPath" : "/Users/michellekweon/Documents/GitHub/hw06-michellekweonn/HW06.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData/HW06-fchqroxqzftmgdcornuqsuixcgyf/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData/HW06-fchqroxqzftmgdcornuqsuixcgyf/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

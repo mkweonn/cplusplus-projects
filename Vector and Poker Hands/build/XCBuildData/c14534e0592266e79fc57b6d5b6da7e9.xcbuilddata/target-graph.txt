@@ -1,0 +1,15 @@
+Target dependency graph (5 targets)
+ZERO_CHECK in HW06, no dependencies
+src in HW06, depends on:
+ZERO_CHECK in HW06 (explicit)
+main in HW06, depends on:
+ZERO_CHECK in HW06 (explicit)
+src in HW06 (explicit)
+tests in HW06, depends on:
+ZERO_CHECK in HW06 (explicit)
+src in HW06 (explicit)
+ALL_BUILD in HW06, depends on:
+ZERO_CHECK in HW06 (explicit)
+main in HW06 (explicit)
+src in HW06 (explicit)
+tests in HW06 (explicit)

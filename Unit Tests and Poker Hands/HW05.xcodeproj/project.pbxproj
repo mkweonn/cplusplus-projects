@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94848400E1B742B1ADFFEAB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FCF59B5DDD2621FCC3FBE0EA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9ABB81CC63494EBFB0D30364 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 792CED6CA01340CA993C4F82 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C72953B047BACD5B02AC3966 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3AF0A6E69CD843A9A658F624 /* PBXTargetDependency */,
+				D06A206162E34250B6AA1898 /* PBXTargetDependency */,
+				CB83510D05014C928798E44A /* PBXTargetDependency */,
+				2294E677481443159A65B26D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A18E36DE8074970B7336C56 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/ITPVector.hpp */ = {isa = PBXBuildFile; fileRef = 7D8DE844C53A408494E62B2F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/ITPVector.hpp */; };
+		1D8D60F7726D41DAA681ED70 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.h */ = {isa = PBXBuildFile; fileRef = AACA521F7A914A1FB1617432 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.h */; };
+		32C5454AAFA74EDDA71C804E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.cpp */ = {isa = PBXBuildFile; fileRef = BAF281E4D3D74A4483F07AF8 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.cpp */; };
+		410410B11931423DBB8679D0 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F9992A3428D14CB0931D22CE /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/CMakeLists.txt */; };
+		6E73F82F08D2475CACD6A76F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.h */ = {isa = PBXBuildFile; fileRef = 4F310C958E754534B657BF0E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.h */; };
+		9EC983D7964E4001BA5FFF0E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/studentTests.cpp */ = {isa = PBXBuildFile; fileRef = 48AE4A6DBA2E430480DD0BEB /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/studentTests.cpp */; };
+		9F0FCD2305CE4116A20CDED8 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.cpp */ = {isa = PBXBuildFile; fileRef = 311312CE449647EB88EF4ED2 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.cpp */; };
+		9F55901CB95E41CFA2569682 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 217A2AC4EBDD44E990FF909A /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */; };
+		C79CE5F4593D49CDA9EB9585 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = 0F6FC45E481E40AAA948E317 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Catch.cpp */; };
+		CF7EDA30C0E6426AAC4DE19C /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/main.cpp */ = {isa = PBXBuildFile; fileRef = 94BC25DB1D4E4349B9012E4D /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/main.cpp */; };
+		EA8690E7D5A44008988787C7 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D2E05EA4F23D4F04AFBF793F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6754AAC9ADC048B18864A0EC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8A53D722C4884CC0BD7C366A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C0EC5087C35E4E16B520BD78 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CA40CBB370BF4128B75BA89F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		03E93F6BB3464C6D9ED7507A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC2DC28A4746E79B45A43A;
+			remoteInfo = ZERO_CHECK;
+		};
+		03F01F28BDCA4B989BFDCC52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC2DC28A4746E79B45A43A;
+			remoteInfo = ZERO_CHECK;
+		};
+		04EA264F67E1435AB271F9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A633C891E6E4514BE2A91B3;
+			remoteInfo = src;
+		};
+		209AA6F5E03E449E8ED665E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A633C891E6E4514BE2A91B3;
+			remoteInfo = src;
+		};
+		3955E99C05914CECA9B29C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41810700D821455992BD8721;
+			remoteInfo = main;
+		};
+		4DC0F48494AD4137ABD68EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC2DC28A4746E79B45A43A;
+			remoteInfo = ZERO_CHECK;
+		};
+		6C41E1E86AB546C483117BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFC2DC28A4746E79B45A43A;
+			remoteInfo = ZERO_CHECK;
+		};
+		D5AD8BAD7F604338A35B9586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4BBA569969A4C3ABF4DB721;
+			remoteInfo = tests;
+		};
+		FB7D1ADD044A4CE78D767778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A633C891E6E4514BE2A91B3;
+			remoteInfo = src;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6FC45E481E40AAA948E317 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		217A2AC4EBDD44E990FF909A /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		311312CE449647EB88EF4ED2 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cards.cpp; path = src/Cards.cpp; sourceTree = SOURCE_ROOT; };
+		48AE4A6DBA2E430480DD0BEB /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/studentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = studentTests.cpp; path = tests/studentTests.cpp; sourceTree = SOURCE_ROOT; };
+		4F310C958E754534B657BF0E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Play.h; path = src/Play.h; sourceTree = SOURCE_ROOT; };
+		5E3EC1AAAB67443E94F85C7F /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C8BC184B944B7B9F0A98C0 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8DE844C53A408494E62B2F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/ITPVector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ITPVector.hpp; path = src/ITPVector.hpp; sourceTree = SOURCE_ROOT; };
+		869E4A323B2F46B5B5B91143 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BC25DB1D4E4349B9012E4D /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		AACA521F7A914A1FB1617432 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Cards.h; path = src/Cards.h; sourceTree = SOURCE_ROOT; };
+		BAF281E4D3D74A4483F07AF8 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Play.cpp; path = src/Play.cpp; sourceTree = SOURCE_ROOT; };
+		D0EF71DB68DF4D87B1A0F146 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D2E05EA4F23D4F04AFBF793F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F9992A3428D14CB0931D22CE /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A875E2DFE94B95A7A615A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539E39327D7C446DA75BE26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7CF95D146140C5879B5DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF9EE6538014FCC90704C7C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D1D4D85B04A84C7F8D5D981A /* CMake Rules */,
+				D0EF71DB68DF4D87B1A0F146 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0E2CE54ECADA4F458C0955D9 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1914D34B7114ED78875E5E6 /* Source Files */,
+				D2E05EA4F23D4F04AFBF793F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		488A3BD84C9747019E73B16E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869E4A323B2F46B5B5B91143 /* main */,
+				5E3EC1AAAB67443E94F85C7F /* src */,
+				75C8BC184B944B7B9F0A98C0 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0A992930814B9AB58FB46C = {
+			isa = PBXGroup;
+			children = (
+				B90B1E36D4C94382BD9B4D3F /* main */,
+				0AF9EE6538014FCC90704C7C /* ALL_BUILD */,
+				C01E4040E2654D14AFDBE3CB /* src */,
+				0E2CE54ECADA4F458C0955D9 /* tests */,
+				488A3BD84C9747019E73B16E /* Products */,
+				4F8E0FDB530F43109F455282 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8E0FDB530F43109F455282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876477B626344C3AAEDA2506 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				311312CE449647EB88EF4ED2 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.cpp */,
+				BAF281E4D3D74A4483F07AF8 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		88F20660A9D94EF7AC37E522 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACA521F7A914A1FB1617432 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.h */,
+				7D8DE844C53A408494E62B2F /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/ITPVector.hpp */,
+				4F310C958E754534B657BF0E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AF2086CAB8E84855B0B9BB72 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				94BC25DB1D4E4349B9012E4D /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B90B1E36D4C94382BD9B4D3F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AF2086CAB8E84855B0B9BB72 /* Source Files */,
+				217A2AC4EBDD44E990FF909A /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		C01E4040E2654D14AFDBE3CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				876477B626344C3AAEDA2506 /* Source Files */,
+				88F20660A9D94EF7AC37E522 /* Header Files */,
+				F9992A3428D14CB0931D22CE /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		C1914D34B7114ED78875E5E6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6FC45E481E40AAA948E317 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Catch.cpp */,
+				48AE4A6DBA2E430480DD0BEB /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/studentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D1D4D85B04A84C7F8D5D981A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41810700D821455992BD8721 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50709E5044F7416F887AF412 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				66097CF708454505874841D0 /* Sources */,
+				BF7CF95D146140C5879B5DDC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				511DBD9857F74DAB9EF647CA /* PBXTargetDependency */,
+				D06D82287784463398D412DA /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = 869E4A323B2F46B5B5B91143 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+		6A633C891E6E4514BE2A91B3 /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1023DAEF76F4228864B5409 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				CA2DCAAF52E94E71824BD330 /* Sources */,
+				33A875E2DFE94B95A7A615A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0EE424D56B4EE5803BF7F2 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = 5E3EC1AAAB67443E94F85C7F /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4BBA569969A4C3ABF4DB721 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F5E9591FE346559551C1F1 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				1EBCC3C3974946BE953970CD /* Sources */,
+				539E39327D7C446DA75BE26D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26AA6F363F8E451EBB34F9E6 /* PBXTargetDependency */,
+				4C553ADA03194D3387EBCED3 /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = 75C8BC184B944B7B9F0A98C0 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0EC4BE7EC24E1EA167C2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = AC474BDCF3A64A84A1F02C17 /* Build configuration list for PBXProject "HW05" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6754AAC9ADC048B18864A0EC /* Debug */,
+				C0EC5087C35E4E16B520BD78 /* Release */,
+				8A53D722C4884CC0BD7C366A /* MinSizeRel */,
+				CA40CBB370BF4128B75BA89F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4E0A992930814B9AB58FB46C;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				9ABB81CC63494EBFB0D30364 /* ALL_BUILD */,
+				0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */,
+				41810700D821455992BD8721 /* main */,
+				6A633C891E6E4514BE2A91B3 /* src */,
+				D4BBA569969A4C3ABF4DB721 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C72953B047BACD5B02AC3966 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FCF59B5DDD2621FCC3FBE0EA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  make -f /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  make -f /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  make -f /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/michellekweon/Documents/GitHub/hw05-michellekweonn
+  make -f /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBCC3C3974946BE953970CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79CE5F4593D49CDA9EB9585 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Catch.cpp */,
+				9EC983D7964E4001BA5FFF0E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/studentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66097CF708454505874841D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7EDA30C0E6426AAC4DE19C /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2DCAAF52E94E71824BD330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0FCD2305CE4116A20CDED8 /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Cards.cpp */,
+				32C5454AAFA74EDDA71C804E /* /Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Play.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2294E677481443159A65B26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */;
+			targetProxy = 03F01F28BDCA4B989BFDCC52 /* PBXContainerItemProxy */;
+		};
+		26AA6F363F8E451EBB34F9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A633C891E6E4514BE2A91B3 /* src */;
+			targetProxy = 209AA6F5E03E449E8ED665E8 /* PBXContainerItemProxy */;
+		};
+		3AF0A6E69CD843A9A658F624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41810700D821455992BD8721 /* main */;
+			targetProxy = 3955E99C05914CECA9B29C04 /* PBXContainerItemProxy */;
+		};
+		4C553ADA03194D3387EBCED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */;
+			targetProxy = 4DC0F48494AD4137ABD68EEB /* PBXContainerItemProxy */;
+		};
+		511DBD9857F74DAB9EF647CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A633C891E6E4514BE2A91B3 /* src */;
+			targetProxy = FB7D1ADD044A4CE78D767778 /* PBXContainerItemProxy */;
+		};
+		AB0EE424D56B4EE5803BF7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */;
+			targetProxy = 03E93F6BB3464C6D9ED7507A /* PBXContainerItemProxy */;
+		};
+		CB83510D05014C928798E44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4BBA569969A4C3ABF4DB721 /* tests */;
+			targetProxy = D5AD8BAD7F604338A35B9586 /* PBXContainerItemProxy */;
+		};
+		D06A206162E34250B6AA1898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A633C891E6E4514BE2A91B3 /* src */;
+			targetProxy = 04EA264F67E1435AB271F9D1 /* PBXContainerItemProxy */;
+		};
+		D06D82287784463398D412DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFC2DC28A4746E79B45A43A /* ZERO_CHECK */;
+			targetProxy = 6C41E1E86AB546C483117BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E2CDCCBD4E841A0BFA116F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build";
+			};
+			name = Debug;
+		};
+		2BE13ECEEE274F19B488AA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2F3CCA87FD304196B79A10A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/src.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39B40A2031A044F8BF970C14 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3C717EB5F26A45D4A11F3E5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E70646FDBF14C89A15F80A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/src.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3F584E99D83F47449C13B1CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build";
+			};
+			name = MinSizeRel;
+		};
+		40686BD8B4A542C394337D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		46D3A80816D24B1AA103BBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		699A14C68669492DA5A91C38 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72672D05AE0F4CEB99A89E7E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/src.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B54BC8D0AD24069837A5DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D0F54091F93485A9336250E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7D68FF2097C148DF97CB502D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build";
+			};
+			name = RelWithDebInfo;
+		};
+		97DA91DC362445798CA85C9D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9896559B55B647798C0843EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/src.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ACBF28983D9C46EB92E7E2AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ACC3D0E1915047588E4C340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D556A07A487D4261A761E0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/tests/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D5F32CCA20B446B5994A1DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E0BC0F1FA00E44348E56F078 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F5BD5200BA4B46FE92FC7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F89F6ECFEC9549F69D458484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build";
+			};
+			name = Release;
+		};
+		FA6D9F513504412BBF787EE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/michellekweon/Documents/GitHub/hw05-michellekweonn/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50709E5044F7416F887AF412 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC3D0E1915047588E4C340E /* Debug */,
+				D5F32CCA20B446B5994A1DD0 /* Release */,
+				ACBF28983D9C46EB92E7E2AC /* MinSizeRel */,
+				FA6D9F513504412BBF787EE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		792CED6CA01340CA993C4F82 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40686BD8B4A542C394337D9D /* Debug */,
+				F5BD5200BA4B46FE92FC7316 /* Release */,
+				699A14C68669492DA5A91C38 /* MinSizeRel */,
+				7D0F54091F93485A9336250E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82F5E9591FE346559551C1F1 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D3A80816D24B1AA103BBA2 /* Debug */,
+				D556A07A487D4261A761E0C6 /* Release */,
+				39B40A2031A044F8BF970C14 /* MinSizeRel */,
+				97DA91DC362445798CA85C9D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94848400E1B742B1ADFFEAB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE13ECEEE274F19B488AA81 /* Debug */,
+				7B54BC8D0AD24069837A5DEE /* Release */,
+				3C717EB5F26A45D4A11F3E5B /* MinSizeRel */,
+				E0BC0F1FA00E44348E56F078 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC474BDCF3A64A84A1F02C17 /* Build configuration list for PBXProject "HW05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2CDCCBD4E841A0BFA116F8 /* Debug */,
+				F89F6ECFEC9549F69D458484 /* Release */,
+				3F584E99D83F47449C13B1CB /* MinSizeRel */,
+				7D68FF2097C148DF97CB502D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1023DAEF76F4228864B5409 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70646FDBF14C89A15F80A6 /* Debug */,
+				9896559B55B647798C0843EA /* Release */,
+				72672D05AE0F4CEB99A89E7E /* MinSizeRel */,
+				2F3CCA87FD304196B79A10A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0EC4BE7EC24E1EA167C2A8 /* Project object */;
+}

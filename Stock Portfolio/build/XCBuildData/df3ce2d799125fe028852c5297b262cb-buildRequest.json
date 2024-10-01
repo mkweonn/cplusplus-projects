@@ -1,0 +1,70 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "7bcf09dc7e7b092c372281c84c9090053dd53f7ebb73f563c71d5b430c064ed0"
+    },
+    {
+      "guid" : "7bcf09dc7e7b092c372281c84c909005a1a85f82af9c92826ea66480eb18e8f2"
+    },
+    {
+      "guid" : "7bcf09dc7e7b092c372281c84c9090051379e3ed947c7afd3785d1e7ab97c208"
+    },
+    {
+      "guid" : "7bcf09dc7e7b092c372281c84c90900579ef24905671b81b7e49bcb5a062fbed"
+    },
+    {
+      "guid" : "7bcf09dc7e7b092c372281c84c909005d44bc211b64fb6584058f178c652f09e"
+    }
+  ],
+  "containerPath" : "/Users/michellekweon/Documents/GitHub/hw03-michellekweonn/HW03.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData/HW03-awdfjvpcbhsldvfymzxcnmcdpxat/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/michellekweon/Library/Developer/Xcode/DerivedData/HW03-awdfjvpcbhsldvfymzxcnmcdpxat/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

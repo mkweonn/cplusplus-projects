@@ -1,0 +1,5 @@
+/Users/michellekweon/Documents/GitHub/hw10-michellekweonn/CMakeFiles/main.dir
+/Users/michellekweon/Documents/GitHub/hw10-michellekweonn/CMakeFiles/ALL_BUILD.dir
+/Users/michellekweon/Documents/GitHub/hw10-michellekweonn/CMakeFiles/ZERO_CHECK.dir
+/Users/michellekweon/Documents/GitHub/hw10-michellekweonn/src/CMakeFiles/src.dir
+/Users/michellekweon/Documents/GitHub/hw10-michellekweonn/tests/CMakeFiles/tests.dir

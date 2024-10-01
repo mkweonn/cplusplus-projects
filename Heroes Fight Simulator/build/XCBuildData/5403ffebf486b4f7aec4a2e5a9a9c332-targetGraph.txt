@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in HW02, no dependencies
+src in HW02, depends on:
+ZERO_CHECK in HW02 (explicit)
+main in HW02, depends on:
+src in HW02 (explicit)
+ZERO_CHECK in HW02 (explicit)
